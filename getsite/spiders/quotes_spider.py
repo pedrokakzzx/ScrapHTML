@@ -20,7 +20,7 @@ class QuotesSpider(scrapy.Spider):
 
     def parse(self, response):
         current_directory = os.getcwd()
-        save_folder = Path(current_directory) / "getsite" / "saved_pages"
+        save_folder = Path(current_directory) / "ScrapHTML" / "saved_pages"
         save_folder.mkdir(parents=True, exist_ok=True)
         
         filename = save_folder / f"page-{response.url.split('/')[-1]}.html"
