@@ -6,6 +6,8 @@ ScrapHTML is a simple web scraping project that focuses on extracting only the H
 
 Ensure you have Python and pip installed on your machine. Then, execute the following commands:
 
+cd ~
+
 git clone https://github.com/pedrokakzzx/ScrapHTML
 
 cd ScrapHTML
@@ -17,4 +19,4 @@ You need [Git Bash](https://www.git-scm.com/downloads) to run this project.
 
 If you have a Git Bash, you need execute the fallowing command:
 
-<span style="color: green;">start start.bat</span>
+scrapy quotes_spider.py
