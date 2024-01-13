@@ -3,18 +3,16 @@ from colorama import init, Fore
 
 import colorama
 import scrapy
+import os
 
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
 
     def start_requests(self):
-        print("English")
-        print("ENTER A WEBSITE LINK BELOW")
-        print("THE LINK MUST START WITH HTTPS://")  
-        print("Português Brasileiro")
-        print("DIGITE UM LINK DE UM SITE ABAIXO")
-        print("O LINK PRECISA COMEÇAR COM HTTPS:// ")
+        os.system("cls")
+        os.system("clear")        
+        print("Enter a website link bellow:")
         
         link = input("Link:")
         urls = [
